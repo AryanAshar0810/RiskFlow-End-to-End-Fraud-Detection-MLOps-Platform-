@@ -1,8 +1,8 @@
-# 💳 Fraud Detection MLOps Pipeline
+# Fraud Detection MLOps Pipeline
 
 An end-to-end fraud detection system built with production-grade MLOps practices. Includes automated pipelines, model version control, and deployment-ready architecture.
 
-## 🏗️ System Architecture
+## System Architecture
 
 
 **Architecture Highlights:**
