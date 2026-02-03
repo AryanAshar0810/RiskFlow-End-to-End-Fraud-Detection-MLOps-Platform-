@@ -34,6 +34,30 @@ An end-to-end fraud detection system built with production-grade MLOps practices
 5. Monitoring: Detect data drift, track model performance, and trigger automated retraining.
 6. Production Serving: Expose a REST API with health checks and load balancing for reliable serving.
 
+### Setup
+```bash
+git clone <repository-url>
+cd fraud-detection-mlops
+pip install -r requirements.txt
+```
+
+### 🎯 Serve Model
+```bash
+# One-command solution: retrain + serve
+python retrain_and_serve.py
+# Web interface at http://localhost:3000
+```
+
+### 📊 Run EDA Analysis
+```bash
+# Execute all EDA notebooks
+./run_eda_simple.sh
+
+# Or run individual notebooks
+jupyter notebook notebooks/
+```
+
+
 ## 📊 EDA Notebooks
 
 **Design Choice:** Conducted thorough exploratory data analysis to serve as the foundation of the MLOps pipeline, bridging critical gaps in typical data science workflows.
