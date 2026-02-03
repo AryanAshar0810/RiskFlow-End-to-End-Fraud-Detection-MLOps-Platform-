@@ -57,6 +57,14 @@ python retrain_and_serve.py
 jupyter notebook notebooks/
 ```
 
+### 🧪 Test API
+```bash
+curl http://localhost:3000/health
+curl -X POST http://localhost:3000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"Time": 125.5, "Amount": 49.99}'
+```
+
 
 ## 📊 EDA Notebooks
 
